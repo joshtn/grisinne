@@ -1,0 +1,288 @@
+[
+  {
+    "id": 1,
+    "char": "ㄅ",
+    "roman": "b",
+    "hint": "[B]ait hook, has b shape."
+  },
+
+  {
+    "id": 2,
+    "char": "ㄉ",
+    "roman": "d",
+    "hint": "b with tongue, or think knife 刀 which is [D]āo."
+  },
+
+  {
+    "id": 3,
+    "char": "ˇ",
+    "roman": "",
+    "hint": "Third tone."
+  },
+
+  {
+    "id": 4,
+    "char": "ˋ",
+    "roman": "",
+    "hint": "Fourth tone."
+  },
+
+  {
+    "id": 5,
+    "char": "ㄓ",
+    "roman": "zh",
+    "hint": "Fancy [ZH]uce cup. (Juice cup)"
+  },
+
+  {
+    "id": 6,
+    "char": "ˊ",
+    "roman": "",
+    "hint": "Second tone."
+  },
+
+  {
+    "id": 7,
+    "char": "˙",
+    "roman": "",
+    "hint": "Fifth tone."
+  },
+
+  {
+    "id": 8,
+    "char": "ㄚ",
+    "roman": "a",
+    "hint": "Human with hands up saying wh[A]t."
+  },
+
+  {
+    "id": 9,
+    "char": "ㄞ",
+    "roman": "ai",
+    "hint": "b[AI]ke (bike) riding."
+  },
+
+  {
+    "id": 10,
+    "char": "ㄢ",
+    "roman": "an",
+    "hint": "Imagine in the right corner of the square, you can fit in a 1 (one). Then say one omitting the o sound, o[NE]."
+  },
+
+  {
+    "id": 11,
+    "char": "ㄦ",
+    "roman": "er",
+    "hint": "Tree t[ER]unk (trunk), or think of two lines => two in chinese is er."
+  },
+
+  {
+    "id": 12,
+    "char": "ㄆ",
+    "roman": "p",
+    "hint": "b with a line representing 'air out', [p]."
+  },
+
+  {
+    "id": 13,
+    "char": "ㄊ",
+    "roman": "t",
+    "hint": "Its a [t]."
+  },
+
+  {
+    "id": 14,
+    "char": "ㄍ",
+    "roman": "g",
+    "hint": "[G]o back button"
+  },
+
+  {
+    "id": 15,
+    "char": "ㄐ",
+    "roman": "j",
+    "hint": "[J] rotated 90 degrees clockwise. Call is Jiào 叫, notice the char to the right."
+  },
+
+  {
+    "id": 16,
+    "char": "ㄔ",
+    "roman": "ch",
+    "hint": "hand holding [CH]opsticks"
+  },
+
+  {
+    "id": 17,
+    "char": "ㄗ",
+    "roman": "z",
+    "hint": "T shape with surrounded area => Trapped and [Z]apped."
+  },
+
+  {
+    "id": 18,
+    "char": "ㄧ",
+    "roman": "i",
+    "hint": "Number one. y[i]."
+  },
+
+  {
+    "id": 19,
+    "char": "ㄛ",
+    "roman": "o",
+    "hint": "Can [O]pener."
+  },
+
+  {
+    "id": 20,
+    "char": "ㄟ",
+    "roman": "ei",
+    "hint": "Reaching out your hand to p[ei]. (pay)"
+  },
+
+  {
+    "id": 21,
+    "char": "ㄣ",
+    "roman": "en",
+    "hint": "Looks like a toilet and when you squeeze, you make a [en] sound."
+  },
+
+  {
+    "id": 22,
+    "char": "ㄇ",
+    "roman": "m",
+    "hint": "Opposite of n is [m]."
+  },
+
+  {
+    "id": 23,
+    "char": "ㄋ",
+    "roman": "n",
+    "hint": "Opposite of m is [n]."
+  },
+
+  {
+    "id": 24,
+    "char": "ㄎ",
+    "roman": "k",
+    "hint": "b with a crown => [K]ing."
+  },
+
+  {
+    "id": 25,
+    "char": "ㄑ",
+    "roman": "q",
+    "hint": "A piece of triangular [q]heese (cheese)."
+  },
+
+  {
+    "id": 26,
+    "char": "ㄕ",
+    "roman": "sh",
+    "hint": "book [sh]elf."
+  },
+
+  {
+    "id": 27,
+    "char": "ㄘ",
+    "roman": "c",
+    "hint": "[tzz] is that suppose to be a T?"
+  },
+
+  {
+    "id": 28,
+    "char": "ㄨ",
+    "roman": "u",
+    "hint": "Duck taped mouth sound."
+  },
+
+  {
+    "id": 29,
+    "char": "ㄜ",
+    "roman": "e",
+    "hint": "pizz[e] cutter with nice handle."
+  },
+
+  {
+    "id": 30,
+    "char": "ㄠ",
+    "roman": "ao",
+    "hint": "[ao]ch that punch hurt, im down on my knees."
+  },
+
+  {
+    "id": 31,
+    "char": "ㄤ",
+    "roman": "ang",
+    "hint": "r[un]ning man."
+  },
+
+  {
+    "id": 32,
+    "char": "ㄈ",
+    "roman": "F",
+    "hint": "[F]*** I lost my bottom"
+  },
+
+  {
+    "id": 33,
+    "char": "ㄌ",
+    "roman": "L",
+    "hint": "evolution of d is [L] (comes later in alphabet)"
+  },
+
+  {
+    "id": 34,
+    "char": "ㄏ",
+    "roman": "h",
+    "hint": "[h]o[h]o santa stuck in the chimney. The shape also reminds me of how you type laughing in Korean"
+  },
+
+  {
+    "id": 35,
+    "char": "ㄒ",
+    "roman": "x",
+    "hint": "sleeping beauty laying her finger on the nail and shouting [x]it (shit)"
+  },
+
+  {
+    "id": 36,
+    "char": "ㄖ",
+    "roman": "r",
+    "hint": "Sushi [r]oll. Can also think mouth with tongue in the middle, same shape you make when saying rrrrr"
+  },
+
+  {
+    "id": 37,
+    "char": "ㄙ",
+    "roman": "s",
+    "hint": "Kneeling down to say [s]orry"
+  },
+
+  {
+    "id": 38,
+    "char": "ㄩ",
+    "roman": "ü",
+    "hint": "say 'yi' with a smile then make your mouth smaller, it will make the ü sound"
+  },
+
+  {
+    "id": 39,
+    "char": "ㄝ",
+    "roman": "ê",
+    "hint": "catching a insect with my n[ê]t"
+  },
+
+  {
+    "id": 40,
+    "char": "ㄡ",
+    "roman": "ou",
+    "hint": "scuba diver, diving into the [ou]cean (ocean)"
+  },
+
+  {
+    "id": 41,
+    "char": "ㄥ",
+    "roman": "eng",
+    "hint": "sharp [eng]lish nose"
+  }
+]

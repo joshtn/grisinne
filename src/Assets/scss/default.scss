@@ -1,0 +1,276 @@
+$cardColor: #dfd7cc;
+$headerPadding: 7px 1rem;
+$rotatey: 0;
+$translatey: 0;
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: 'Roboto', 'sans-serif';
+    background-color: #f0ffef;
+;
+}
+
+.sound {
+    position: absolute;
+    top: 5rem;
+}
+
+
+.header {
+    position: fixed;
+    background-color: #222;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        height: 2rem;
+    }
+
+    .logo {
+        color: #fff;
+        padding: $headerPadding;
+    }
+
+    ul {
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    a {
+        color: #fff;
+        text-decoration: none;
+        padding: $headerPadding;
+
+        &:hover {
+            color: #4c731c;
+            cursor: pointer;
+        }
+    }
+}
+
+.modalBg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.5);
+    transition: opacity 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.modal {
+    // opacity: 0;
+    // pointer-events: none;
+    // transition: opacity 0.4s ease-in-out;
+    // position: absolute;
+    // left: 0;
+    // right: 0;
+    // bottom: 0;
+    // top: 0;
+    // width: 100%;
+    // height: 100%;
+    // background: rgba(0, 0, 0, 0.5);
+    // display: flex;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+}
+
+.modalShowing-true {
+    opacity: 1;
+}
+
+.modalInner {
+    background: #d2f3eb;
+    width: 900px;
+    border-radius: 10px;
+    max-width: calc(100% - 60px);
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    color: #14755f;
+    text-align: left;
+    overflow: hidden;
+}
+
+.modalImage img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.modalText {
+    padding: 15px;
+
+    button:not(.exitButton) {
+        padding: 13px 35px;
+        background: #22c39f;
+        border-radius: 10px;
+        font-size: 18px;
+        color: white;
+        border: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 2rem;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #17886f;
+        }
+    }
+
+    p {
+        line-height: 180%;
+        margin-top: 1rem;
+    }
+}
+
+.exitButton {
+    padding: 3px 5px;
+    cursor: pointer;
+    float: right;
+}
+
+
+.hint-toggle {
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -300%);
+    font-size: 24px;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+
+    b {
+        background-color: yellow;
+    }
+
+    &:hover {
+        background-color: #faf6f2;
+    }
+}
+
+
+.hint {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    background-color: #e0e0e0;
+    padding: 10px;
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+    color: #464646;
+    text-align: center;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.bord-grid {
+    display: grid;
+    background-color: #4c731c;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    position: absolute;
+    gap: 1px;
+    left: 0;
+    bottom: 0px;
+    width: 100vw;
+    height: 20vw;
+}
+
+// .card.flip {
+//     $rotatey: 180deg;
+//     .front {
+//         display: none;
+//         backface-visibility: visible;
+//     }
+//     .back {
+//         backface-visibility: visible;
+//     }
+// }
+.card.flip {
+    transform: rotateY(180deg);
+}
+
+
+.card {
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+    font-size: 24px;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+
+    &:hover {
+        box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.9);
+        // transform: rotateY(180deg);
+    }
+
+}
+
+.card .front,
+.card .back {
+    position: absolute;
+    backface-visibility: hidden;
+    display: inline;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: white;
+    margin: auto;
+
+
+    &:active {
+        transform: scale(0.98);
+    }
+
+}
+
+// .card .front {
+//     display: none;
+// }
+.front {
+    display: table-cell;
+}
+
+
+.back {
+    transform: rotateY(180deg);
+}
+
+@media only screen and (max-width: 1100px) {
+    
+    .bord-grid {
+        background-color: transparent;
+    }
+}
+
