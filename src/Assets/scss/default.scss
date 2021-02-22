@@ -1,7 +1,4 @@
-$cardColor: #dfd7cc;
 $headerPadding: 7px 1rem;
-$rotatey: 0;
-$translatey: 0;
 
 
 * {
@@ -16,11 +13,7 @@ body {
 ;
 }
 
-.sound {
-    position: absolute;
-    top: 5rem;
-}
-
+// --------------------------------------------
 
 .header {
     position: fixed;
@@ -59,6 +52,8 @@ body {
     }
 }
 
+// ---------------------------------
+
 .modalBg {
     position: fixed;
     top: 0;
@@ -72,18 +67,6 @@ body {
 }
 
 .modal {
-    // opacity: 0;
-    // pointer-events: none;
-    // transition: opacity 0.4s ease-in-out;
-    // position: absolute;
-    // left: 0;
-    // right: 0;
-    // bottom: 0;
-    // top: 0;
-    // width: 100%;
-    // height: 100%;
-    // background: rgba(0, 0, 0, 0.5);
-    // display: flex;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -96,7 +79,7 @@ body {
 }
 
 .modalInner {
-    background: #d2f3eb;
+    background: #f0ffef;
     width: 900px;
     border-radius: 10px;
     max-width: calc(100% - 60px);
@@ -117,17 +100,25 @@ body {
 .modalText {
     padding: 15px;
 
-    button:not(.exitButton) {
-        padding: 13px 35px;
+    
+    p {
+        line-height: 180%;
+        margin-top: 1rem;
+    }
+}
+
+.git-button {
+
+        text-decoration: none;
         background: #22c39f;
         border-radius: 10px;
         font-size: 18px;
-        color: white;
+        color: #fff;
         border: none;
         display: block;
-        width: 100%;
         text-align: center;
         margin-top: 2rem;
+        padding: 15px 5px;
         cursor: pointer;
 
         &:hover {
@@ -135,11 +126,7 @@ body {
         }
     }
 
-    p {
-        line-height: 180%;
-        margin-top: 1rem;
-    }
-}
+
 
 .exitButton {
     padding: 3px 5px;
@@ -147,6 +134,7 @@ body {
     float: right;
 }
 
+// ------------------------------------------------------------
 
 .hint-toggle {
     background-color: #fff;
@@ -186,7 +174,7 @@ body {
     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
 }
 
-
+// ----------------------------------------------------------------
 
 .bord-grid {
     display: grid;
@@ -202,16 +190,6 @@ body {
     height: 20vw;
 }
 
-// .card.flip {
-//     $rotatey: 180deg;
-//     .front {
-//         display: none;
-//         backface-visibility: visible;
-//     }
-//     .back {
-//         backface-visibility: visible;
-//     }
-// }
 .card.flip {
     transform: rotateY(180deg);
 }
@@ -232,7 +210,6 @@ body {
 
     &:hover {
         box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.9);
-        // transform: rotateY(180deg);
     }
 
 }
@@ -245,7 +222,7 @@ body {
     width: 100%;
     height: 100%;
     border-radius: 10px;
-    background-color: white;
+    background-color: #fff;
     margin: auto;
 
 
@@ -255,9 +232,6 @@ body {
 
 }
 
-// .card .front {
-//     display: none;
-// }
 .front {
     display: table-cell;
 }

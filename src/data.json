@@ -3,14 +3,14 @@
     "id": 1,
     "char": "ㄅ",
     "roman": "b",
-    "hint": "[B]ait hook, has b shape."
+    "hint": "[b]ait hook, has b shape."
   },
 
   {
     "id": 2,
     "char": "ㄉ",
     "roman": "d",
-    "hint": "b with tongue, or think knife 刀 which is [D]āo."
+    "hint": "b with tongue, or think knife 刀 which is [d]āo."
   },
 
   {
@@ -31,7 +31,7 @@
     "id": 5,
     "char": "ㄓ",
     "roman": "zh",
-    "hint": "Fancy [ZH]uce cup. (Juice cup)"
+    "hint": "Fancy [zh]uce cup. (Juice cup)"
   },
 
   {
@@ -52,28 +52,28 @@
     "id": 8,
     "char": "ㄚ",
     "roman": "a",
-    "hint": "Human with hands up saying wh[A]t."
+    "hint": "Human with hands up saying wh[a]t."
   },
 
   {
     "id": 9,
     "char": "ㄞ",
     "roman": "ai",
-    "hint": "b[AI]ke (bike) riding."
+    "hint": "b[ai]ke (bike) riding."
   },
 
   {
     "id": 10,
     "char": "ㄢ",
     "roman": "an",
-    "hint": "Imagine in the right corner of the square, you can fit in a 1 (one). Then say one omitting the o sound, o[NE]."
+    "hint": "Imagine in the right corner of the square, you can fit in a 1 (one). Then say one omitting the o sound, o[an]."
   },
 
   {
     "id": 11,
     "char": "ㄦ",
     "roman": "er",
-    "hint": "Tree t[ER]unk (trunk), or think of two lines => two in chinese is er."
+    "hint": "Tree t[er]unk (trunk), or think of two lines => two in chinese is er."
   },
 
   {
@@ -94,7 +94,7 @@
     "id": 14,
     "char": "ㄍ",
     "roman": "g",
-    "hint": "[G]o back button"
+    "hint": "[g]o back button"
   },
 
   {
@@ -108,14 +108,14 @@
     "id": 16,
     "char": "ㄔ",
     "roman": "ch",
-    "hint": "hand holding [CH]opsticks"
+    "hint": "hand holding [ch]opsticks"
   },
 
   {
     "id": 17,
     "char": "ㄗ",
     "roman": "z",
-    "hint": "T shape with surrounded area => Trapped and [Z]apped."
+    "hint": "T shape with surrounded area => Trapped and [z]apped."
   },
 
   {
@@ -129,7 +129,7 @@
     "id": 19,
     "char": "ㄛ",
     "roman": "o",
-    "hint": "Can [O]pener."
+    "hint": "Can [o]pener."
   },
 
   {
@@ -164,7 +164,7 @@
     "id": 24,
     "char": "ㄎ",
     "roman": "k",
-    "hint": "b with a crown => [K]ing."
+    "hint": "b with a crown => [k]ing."
   },
 
   {
@@ -220,7 +220,7 @@
     "id": 32,
     "char": "ㄈ",
     "roman": "F",
-    "hint": "[F]*** I lost my bottom"
+    "hint": "[F]uck I lost my bottom"
   },
 
   {
