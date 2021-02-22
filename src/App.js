@@ -24,7 +24,6 @@ function App() {
       if (zhuyin.id === id) {
         setCharHint(zhuyin.hint)
         setCharCurr(zhuyin.char)
-        console.log(zhuyin.hint)
       }
     })
   }
