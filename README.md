@@ -1,17 +1,10 @@
 # Grisinne - A way to remember zhuyin
 
-Here is the link to the site [SITE LINK](https://joshtn.github.io/grisinne/).
+[SITE LINK](https://joshtn.github.io/grisinne/).
 
 ## About
 
-Fun personal project.
-
-Why the name Grisinne?
-The zhu in zhuyin makes me think of the word zhu which is pig.
-Pig in swedish is gris.
-yin makes me think of in as inside.
-inside in swedish is inne
-xD
+A tool to learn zhuyin. Acts as a flashcard app. Press on the char to see the romanization. Hover on the hint to get tips on how to remember.
 
 ## Gif
 
